@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="133709" started-at="2020-08-31T02:17:49 IST" finished-at="2020-08-31T02:20:03 IST">
+    <groups>
+    </groups>
+    <test name="first" duration-ms="133709" started-at="2020-08-31T02:17:49 IST" finished-at="2020-08-31T02:20:03 IST">
+      <class name="com.Testcases.activity9">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Testcases.activity9@23faf8f2]" name="setup" is-config="true" duration-ms="5597" started-at="2020-08-31T02:19:45 IST" finished-at="2020-08-31T02:19:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="NameUserInfoFromLeadTable()[pri:0, instance:com.Testcases.activity9@23faf8f2]" name="NameUserInfoFromLeadTable" duration-ms="7536" started-at="2020-08-31T02:19:51 IST" finished-at="2020-08-31T02:19:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NameUserInfoFromLeadTable -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Testcases.activity9@23faf8f2]" name="teardown" is-config="true" duration-ms="4416" started-at="2020-08-31T02:19:58 IST" finished-at="2020-08-31T02:20:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Testcases.activity9 -->
+      <class name="com.Testcases.activity4">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Testcases.activity4@711f39f9]" name="setup" is-config="true" duration-ms="5734" started-at="2020-08-31T02:18:15 IST" finished-at="2020-08-31T02:18:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateHomepageIsLoaded()[pri:0, instance:com.Testcases.activity4@711f39f9]" name="validateHomepageIsLoaded" duration-ms="5688" started-at="2020-08-31T02:18:20 IST" finished-at="2020-08-31T02:18:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomepageIsLoaded -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Testcases.activity4@711f39f9]" name="teardown" is-config="true" duration-ms="182" started-at="2020-08-31T02:18:26 IST" finished-at="2020-08-31T02:18:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Testcases.activity4 -->
+      <class name="com.Testcases.activity3">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Testcases.activity3@3fd7a715]" name="setup" is-config="true" duration-ms="5850" started-at="2020-08-31T02:18:06 IST" finished-at="2020-08-31T02:18:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateFooterText()[pri:0, instance:com.Testcases.activity3@3fd7a715]" name="validateFooterText" duration-ms="2454" started-at="2020-08-31T02:18:12 IST" finished-at="2020-08-31T02:18:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFooterText -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Testcases.activity3@3fd7a715]" name="teardown" is-config="true" duration-ms="160" started-at="2020-08-31T02:18:15 IST" finished-at="2020-08-31T02:18:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Testcases.activity3 -->
+      <class name="com.Testcases.activity2">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Testcases.activity2@26aa12dd]" name="setup" is-config="true" duration-ms="5673" started-at="2020-08-31T02:17:58 IST" finished-at="2020-08-31T02:18:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateHeaderImage()[pri:0, instance:com.Testcases.activity2@26aa12dd]" name="validateHeaderImage" duration-ms="2180" started-at="2020-08-31T02:18:04 IST" finished-at="2020-08-31T02:18:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaderImage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Testcases.activity2@26aa12dd]" name="teardown" is-config="true" duration-ms="360" started-at="2020-08-31T02:18:06 IST" finished-at="2020-08-31T02:18:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Testcases.activity2 -->
+      <class name="com.Testcases.activity1">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Testcases.activity1@131276c2]" name="setup" is-config="true" duration-ms="6806" started-at="2020-08-31T02:17:49 IST" finished-at="2020-08-31T02:17:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateTitle()[pri:0, instance:com.Testcases.activity1@131276c2]" name="validateTitle" duration-ms="2145" started-at="2020-08-31T02:17:56 IST" finished-at="2020-08-31T02:17:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Testcases.activity1@131276c2]" name="teardown" is-config="true" duration-ms="212" started-at="2020-08-31T02:17:58 IST" finished-at="2020-08-31T02:17:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Testcases.activity1 -->
+      <class name="com.Testcases.activity8">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Testcases.activity8@d44fc21]" name="setup" is-config="true" duration-ms="5790" started-at="2020-08-31T02:19:31 IST" finished-at="2020-08-31T02:19:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AccTableNameInformation()[pri:0, instance:com.Testcases.activity8@d44fc21]" name="AccTableNameInformation" duration-ms="7375" started-at="2020-08-31T02:19:37 IST" finished-at="2020-08-31T02:19:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccTableNameInformation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Testcases.activity8@d44fc21]" name="teardown" is-config="true" duration-ms="438" started-at="2020-08-31T02:19:45 IST" finished-at="2020-08-31T02:19:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Testcases.activity8 -->
+      <class name="com.Testcases.activity7">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Testcases.activity7@51cdd8a]" name="setup" is-config="true" duration-ms="5766" started-at="2020-08-31T02:18:55 IST" finished-at="2020-08-31T02:19:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="additionalinformation()[pri:0, instance:com.Testcases.activity7@51cdd8a]" name="additionalinformation" duration-ms="30308" started-at="2020-08-31T02:19:01 IST" finished-at="2020-08-31T02:19:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additionalinformation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Testcases.activity7@51cdd8a]" name="teardown" is-config="true" duration-ms="102" started-at="2020-08-31T02:19:31 IST" finished-at="2020-08-31T02:19:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Testcases.activity7 -->
+      <class name="com.Testcases.activity6">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Testcases.activity6@7f13d6e]" name="setup" is-config="true" duration-ms="5708" started-at="2020-08-31T02:18:45 IST" finished-at="2020-08-31T02:18:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateActivitiesdrpdown()[pri:0, instance:com.Testcases.activity6@7f13d6e]" name="validateActivitiesdrpdown" duration-ms="4250" started-at="2020-08-31T02:18:51 IST" finished-at="2020-08-31T02:18:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateActivitiesdrpdown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Testcases.activity6@7f13d6e]" name="teardown" is-config="true" duration-ms="210" started-at="2020-08-31T02:18:55 IST" finished-at="2020-08-31T02:18:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Testcases.activity6 -->
+      <class name="com.Testcases.activity5">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Testcases.activity5@71bbf57e]" name="setup" is-config="true" duration-ms="5693" started-at="2020-08-31T02:18:26 IST" finished-at="2020-08-31T02:18:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateColorNavBar()[pri:0, instance:com.Testcases.activity5@71bbf57e]" name="validateColorNavBar" duration-ms="8625" started-at="2020-08-31T02:18:32 IST" finished-at="2020-08-31T02:18:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateColorNavBar -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Testcases.activity5@71bbf57e]" name="teardown" is-config="true" duration-ms="4380" started-at="2020-08-31T02:18:41 IST" finished-at="2020-08-31T02:18:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Testcases.activity5 -->
+    </test> <!-- first -->
+  </suite> <!-- Suite1 -->
+</testng-results>

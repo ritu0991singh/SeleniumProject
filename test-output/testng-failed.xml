@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="first(failed)">
+    <classes>
+      <class name="com.Testcases.activity2">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="validateHeaderImage"/>
+        </methods>
+      </class> <!-- com.Testcases.activity2 -->
+      <class name="com.Testcases.activity3">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="validateFooterText"/>
+        </methods>
+      </class> <!-- com.Testcases.activity3 -->
+      <class name="com.Testcases.activity6">
+        <methods>
+          <include name="teardown"/>
+          <include name="validateActivitiesdrpdown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Testcases.activity6 -->
+      <class name="com.Testcases.activity7">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="additionalinformation"/>
+        </methods>
+      </class> <!-- com.Testcases.activity7 -->
+      <class name="com.Testcases.activity9">
+        <methods>
+          <include name="teardown"/>
+          <include name="NameUserInfoFromLeadTable"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Testcases.activity9 -->
+      <class name="com.Testcases.activity8">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="AccTableNameInformation"/>
+        </methods>
+      </class> <!-- com.Testcases.activity8 -->
+      <class name="com.Testcases.activity4">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="validateHomepageIsLoaded"/>
+        </methods>
+      </class> <!-- com.Testcases.activity4 -->
+      <class name="com.Testcases.activity5">
+        <methods>
+          <include name="teardown"/>
+          <include name="validateColorNavBar"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Testcases.activity5 -->
+    </classes>
+  </test> <!-- first(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
