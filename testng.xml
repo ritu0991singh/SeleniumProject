@@ -5,18 +5,18 @@
 	<listener class-name="org.uncommons.reportng.HTMLReporter"/>
 	<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
 </listeners>
-<parameter name="browser"  value="chrome"/>
+<parameter name="browser"  value="firefox"/>
   <test name="first" >
     <classes>
       	<class name="com.Testcases.activity1" />  
        	<class name="com.Testcases.activity2" />  
-       	<class name="com.Testcases.activity3" />  
-        <class name="com.Testcases.activity4" />  
+      	<class name="com.Testcases.activity3" />  
+          <class name="com.Testcases.activity4" />  
       	<class name="com.Testcases.activity5" />  
     	<class name="com.Testcases.activity6" />  
-       	<class name="com.Testcases.activity7" />  
+       	<!-- <class name="com.Testcases.activity7" />   -->
         <class name="com.Testcases.activity8" />  
-        <class name="com.Testcases.activity9" /> 
+        <class name="com.Testcases.activity9" />  
     </classes>
   </test>
  
